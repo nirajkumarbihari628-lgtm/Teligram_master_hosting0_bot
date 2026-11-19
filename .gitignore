@@ -1,0 +1,7 @@
+hosting.db
+hosting.db-*
+*.pyc
+__pycache__/
+user_bots/*.py
+!user_bots/example_bot.py
+.env
