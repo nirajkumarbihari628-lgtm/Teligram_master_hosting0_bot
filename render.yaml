@@ -1,0 +1,13 @@
+services:
+  - type: worker
+    name: telegram-hosting-bot
+    runtime: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: python main.py
+    envVars:
+      - key: 9087396806:AAEiHOAHNH6_SoZg28abk-03E_8Z5wdqr8g
+        sync: false
+      - key: 7456508925
+        sync: false
+      - key: https://teligram-master-hosting0-bot.onrender.com
+        sync: false
